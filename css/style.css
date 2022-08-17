@@ -48,3 +48,112 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
 }
 
+
+
+nav {
+    background: var(--primary);
+    padding: 1.6rem 0;
+}
+
+nav .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .inner .logo{
+    text-transform: uppercase;
+    color: var(--pure);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+nav .inner .logo i{
+    color: var(--info);
+}
+
+
+
+nav .inner button{
+    background-color: var(--secondary);
+    border: none;
+    padding: 0.6rem 1rem;
+    color: var(--pure);
+    font-size: 14px;
+    border-radius: 4px;
+    /* margin-left: 10px; */
+}
+
+nav .inner button span{
+    margin-left: 2px;
+}
+
+section.profile{
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 60px;
+}
+
+section.profile .left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+section.profile .right{
+    flex: 1;
+}
+
+section.profile .left h2{
+    color: var(--fade);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+section.profile .left p{
+    color: var(--mild);
+    font-size: 14px;
+}
+
+
+section.profile .left .avatar img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+section.profile .left .avatar{
+    position: relative;
+    margin-right: 2rem;
+}
+
+section.profile .left .avatar span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: var(--info);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
