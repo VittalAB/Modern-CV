@@ -1,0 +1,50 @@
+/*Font  ibm plex */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Lato:wght@300&display=swap');
+
+/*colors*/
+
+:root{
+    --primary :     #1a253f;
+    --dark :        #151a33;
+    --secondary :   #2b55cc;
+    --info :        #4d79f6;
+    --ternary :     #848db3;
+    --pure :        #eff2f9;
+    --fade :        #7081b9;
+    --mild:         #8997bd;
+    --footer :      #212A4A;
+    --black :       #060b1b;
+    --twitter :     #4ac7ec;
+    --dribble :     #ff5da0;
+    --success :     #1ecab8;
+    --danger :      #f1646c;
+    --dark-blue:    #28365f;
+}
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: var(--dark);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* heading reset  */
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    line-height: 0;
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
